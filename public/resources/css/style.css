@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Kilogram;
+    src: url(../Fonts/kilogram_kg.otf);
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(../Fonts/aeonik/Aeonik-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: Aeonik;
+    src: url(../Fonts/aeonik/Aeonik-Light.otf);
+    font-weight: lighter;
+    font-style: normal;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: var(--earth-yellow);
+    color: var(--jet);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1e1e1e;
+    font-family: Aeonik, sans-serif;
+    font-weight: 400 !important;
+    font-size: 16px;
+    color: var(--antiflash-white);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 190px;
+}
